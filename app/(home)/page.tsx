@@ -9,7 +9,7 @@ const HomeSection: React.FC = () => {
       
       {/* النص */}
       <motion.div
-        className="w-full lg:w-1/2 px-6 lg:px-12 pt-36 text-center max-md:flex max-md:flex-col max-md:items-center lg:text-left lg:mt-0"
+        className="w-full lg:w-1/2 px-6 py-7 lg:px-12 pt-36 text-center max-md:flex max-md:flex-col max-md:items-center lg:text-left lg:mt-0"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
