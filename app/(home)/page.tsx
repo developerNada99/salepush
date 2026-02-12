@@ -7,7 +7,7 @@ const HomeSection: React.FC = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center min-h-screen">
       
-      {/* النص */}
+      {/* Text */}
       <motion.div
         className="w-full lg:w-1/2 px-6 lg:px-12 pt-36 text-center max-md:flex max-md:flex-col max-md:items-center lg:text-left lg:mt-0"
         initial={{ opacity: 0, y: 50 }}
@@ -15,7 +15,7 @@ const HomeSection: React.FC = () => {
         transition={{ duration: 1, ease: "easeOut" }}
       >
 
-        {/* الزر الأول */}
+       
         <motion.button
           className="
             group
@@ -53,7 +53,7 @@ const HomeSection: React.FC = () => {
           WELCOME TO SALEPUSH
         </motion.button>
 
-        {/* العنوان */}
+        
         <motion.h1
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mt-4"
           initial={{ opacity: 0, y: 30 }}
@@ -67,7 +67,7 @@ const HomeSection: React.FC = () => {
           in Optimizing Your Site!
         </motion.h1>
 
-        {/* الوصف */}
+       
         <motion.p
           className="text-gray-600 text-sm sm:text-base md:text-lg lg:text-xl mt-4 lg:mt-6 max-w-2xl mx-auto lg:mx-0"
           initial={{ opacity: 0, y: 20 }}
@@ -120,10 +120,10 @@ const HomeSection: React.FC = () => {
 
       </motion.div>
 
-      {/* الجنب اليمين بالكامل */}
+      {/* Right side*/}
       <div className="w-full lg:w-1/2 relative flex items-center justify-center min-h-150">
 
-        {/* الأيقونات جوه نفس المساحة */}
+        {/*icons */}
         <div className="absolute inset-0 z-20">
           <div className="absolute right-[15%] top-[20%]">
             <motion.div animate={{ y: [0, -10, 0] }} transition={{ duration: 3, repeat: Infinity }}>
@@ -150,7 +150,7 @@ const HomeSection: React.FC = () => {
           </div>
         </div>
 
-        {/* الحاوية الرئيسية */}
+        {/* main contain*/}
         <div className="relative w-[80%] max-w-125">
           <div className="w-full bg-linear-to-br from-fuchsia-700 to-fuchsia-600 
           rounded-bl-[250px] rounded-br-[90px] shadow-2xl">
@@ -161,7 +161,7 @@ const HomeSection: React.FC = () => {
             >
               <div className="relative flex justify-center items-center">
                 
-                {/* الدائرة */}
+                {/* cycle */}
                 <motion.div
                   className="w-64 h-64 bg-linear-to-r from-amber-500 to-amber-600 
                   rounded-full absolute top-1/2 left-[60%] -translate-x-1/2 -translate-y-1/2 z-0 shadow-2xl"
@@ -177,7 +177,7 @@ const HomeSection: React.FC = () => {
                   }}
                 />
 
-                {/* الصورة */}
+                {/* image */}
                 <Image
                   src="/man.png"
                   alt=""
